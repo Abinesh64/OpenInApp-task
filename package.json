@@ -1,0 +1,47 @@
+{
+  "name": "open-in-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.6",
+    "@mui/material": "^5.15.6",
+    "cra-template": "1.2.0",
+    "firebase": "^10.7.2",
+    "papaparse": "^5.4.1",
+    "react": "^18.2.0",
+    "react-apple-login": "^1.1.6",
+    "react-dom": "^18.2.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-google-button": "^0.7.2",
+    "react-multiple-select-dropdown-lite": "^2.0.6",
+    "react-router-dom": "^6.21.3",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

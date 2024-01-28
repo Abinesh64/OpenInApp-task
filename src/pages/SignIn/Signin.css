@@ -1,0 +1,235 @@
+.sign_in{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+}
+
+.login-header{
+    display: none;
+}
+.left-background{
+    width: 719.988px;
+    height: 100vh;
+    flex-shrink: 0;
+    fill: #605BFF;
+    position: relative;
+    background-color: #F8FAFF;
+    overflow-y: hidden;
+}
+
+.left {
+    flex: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+}
+
+.top-left {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 65px;
+    height: 65px;    
+    background-color: #FCFCFF;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+}
+  
+.social-media {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-75%);
+    display: flex;
+    width: 299px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+  
+.right{
+    flex: 1;
+    background-color: #F8FAFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: scroll;
+}
+/* .right::-webkit-scrollbar{
+    display: none;
+} */
+
+.container>h2{
+    font-weight: 700;
+}
+
+.signin-methods{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.google, .apple{
+    display: flex;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 197.596px;
+    height: 32.933px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-button, .apple-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 197.596px;
+    height: 32.933px;
+    color: #858585;
+    cursor: pointer;
+}
+
+.google-button>img{
+    height: 18px;
+    width: 18px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    border-radius: 20px;
+    gap: 15px;
+    padding: 30px;
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card>input{
+    border-radius: 10px;
+    background: #F5F5F5;
+    width: 356.77px;
+    height: 43.91px;
+    border: none;
+    padding: 0 10px;
+}
+.forgot-pass{
+    color: #346BD4;
+    cursor: pointer;
+}
+.signin-button{
+    background-color: #605BFF;
+    border-radius: 10px;
+    height: 43px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    cursor: pointer;
+}
+
+span{
+    color: #346BD4;
+    cursor: pointer;
+}
+
+.register{
+    text-align: center;
+}
+
+.social-media-responsive{
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 688px)  {
+    .login-header{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        height: 80px;
+        background-color: #605BFF;
+        width: 100vw;
+    }
+    .login-header>svg{
+        width: 25.99px;
+        height: 26px;
+        margin-left: 20px;
+    }
+    .login-header>p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .sign_in{
+        align-items: center;
+        justify-content: center;
+    }
+    .left-background{
+        display: none;
+    }    
+
+    .container>h2{
+        width: 143.806px;
+        height: 28px;
+        font-size: 24px;
+    }
+
+    .card{
+        width: 328px;
+        font-size: 16px;
+    }
+    .signin-methods{
+        justify-content: start;
+    }
+    .google, .apple{
+        width: 153.351px;
+        height: 32.933px;
+    }
+
+    .apple{
+        margin-left: 30px;
+    }
+
+    .card>input{
+        width: 276.883px;
+        height: 43.91px;
+    }
+
+    .signin-button{
+        width: 276.883px;
+        height: 43.91px;
+    }
+
+    .social-media-responsive{
+        display: flex;
+    }
+}

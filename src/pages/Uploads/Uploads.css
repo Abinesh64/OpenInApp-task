@@ -1,0 +1,189 @@
+.mainpage{
+    width: 80%;
+    background-color: #F8FAFF;
+    gap: 20px;
+    overflow-y: scroll;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.menu-icon{
+    display: none;
+}
+
+.uploads-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header-left{
+    display: none;
+    flex-direction: row;
+
+}
+
+.header>h2{
+    color: #000;
+    font-family: Figtree;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+    margin-left: 30px;
+}
+
+
+.avatar{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; 
+    margin-left: 30px;
+}
+
+.upload-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.upload-container>h2{
+    display: none;
+}
+
+
+
+.input-container{
+    width: 606px;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.box{
+    width: 596px;
+    height: 367px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 3px dotted rgb(224, 224, 224);
+}
+
+.box>img{
+    Width: 40px;
+    Height: 40px
+}
+.excel-drop{
+    gap: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.excel-drop>label{
+    color: #605BFF;
+}
+
+.remove-file{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.remove-button{
+    color: rgb(221, 0, 0);
+    cursor: pointer;
+}
+
+.upload{
+    display: flex;
+    width: 95%;
+    height: 40px;
+    padding: 8px 16px 8px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #605BFF;
+    border: none;
+    color: #FFF;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+
+@media screen and (max-width: 688px)  {
+    .mainpage{
+        width: 100%;
+    }
+
+    .menu-icon{
+        display: flex;
+    }
+    .header{
+        background-color: #F8FAFF;
+    }
+
+    .input-container, .box{
+        width: 328px;
+        height: 352px;
+    }
+    .header{
+        background-color: #FFF;
+        padding: 10px;
+        margin-bottom: 30px;
+        width: 100vw;
+    }
+    .header>h2{
+        display: none;
+    }
+
+    .header-left{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+
+    .upload-container{
+        width: 100vw;
+        align-items: center;
+    }
+
+    .uploads-top{
+        display: flex;
+        gap: 30px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .upload-container>h2{
+        display: flex;
+    }
+
+}

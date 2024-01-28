@@ -1,0 +1,42 @@
+.table{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+}
+
+table{
+    background: #F5F5F5;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+tbody{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.table-content{
+    background-color:  #FFF;
+}
+
+tr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+td{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+}
+
+th{
+    width: 150px;
+    padding: 8px;
+
+}
